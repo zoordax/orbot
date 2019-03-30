@@ -15,7 +15,7 @@ bot.on('message', function (message) {
 		let Embed = new Discord.RichEmbed()
 			.setDescription("voici la liste des monstres la seul chose a faire pour avoir sa composition est de taper -> !le_nom_du_monstre")
 			.setColor("#211edc")
-			.addField(">>>Tous les monstres<<<", "\n Noceros \nfaucheuse\ndrider\nwyrm\nbete-des-neiges\ngriffon\nlarve\ngargantua\nepinator\ntroyen\nailesnoires\nSabrecroc\nailedegivre\ntitan\nmorfalange\nreineabeille \nchaman \ngolem")
+			.addField(">>>Tous les monstres<<<", "\n Noceros \nfaucheuse\ndrider\nwyrm\nbetedesneiges\ngriffon\nlarve\ngargantua\nepinator\ntroyen\nailesnoires\nSabrecroc\nailedegivre\ntitan\nmorfalange\nreineabeille \nchaman \ngolem")
 			.setFooter("Trop bien ??")
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
 	}
@@ -33,7 +33,7 @@ bot.on('message', function (message) {
 		message.channel.send(">>><<< \nincinératrice \nElementalist \nprima \nreine des neiges \ngobelin")
 	}
 
-	if (message.content === '!bete-des-neiges') {
+	if (message.content === '!betedesneiges') {
 		message.channel.send(">>><<< \nChasseur de démon \nEclair pourpre \nRoublard \ntraqueuse \noiseau noir")
 	}
 
