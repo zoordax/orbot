@@ -89,7 +89,7 @@ bot.on('message', function (message) {
 		message.channel.send(">>>GOLEM<<< \nincinératrice \nElementalist \nprima \nreine des neiges \ngobelin")
 	}
 
-	if (message.content === '!Noceros') {
+	if (message.content === '!noceros') {
 		message.channel.send(">>>Noceros<<< \nincinératrice \nElementalist \nReine de neiges \ngobelin \nprima")
 	}
 
