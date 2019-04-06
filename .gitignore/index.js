@@ -6,7 +6,7 @@ bot.login(process.env.TOKEN)
 
 //instance
 bot.on('ready', function () {
-	bot.user.setActivity('YouTube', { type: 'WATCHING' })
+	bot.user.setActivity('!monstres', { type: 'play' })
 })
 
 
