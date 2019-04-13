@@ -57,7 +57,7 @@ bot.on('message', function (message) {
 		message.channel.send(">>>TROYEN<<<  \nincinératrice \nElementalist \nprima \nreine des neiges \ngobelin")
 	}
 
-	if (message.content === '!ailenoir') {
+	if (message.content === '!ailesnoires') {
 		message.channel.send(">>>AILE NOIRE<<<  \nChasseur de démon \nEclair pourpre \nRoublard \ntraqueuse \noiseau noir")
 	}
 
