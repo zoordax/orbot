@@ -16,9 +16,21 @@ bot.on('message', function (message) {
 			.setDescription("voici la liste des monstres la seul chose a faire pour avoir sa composition est de taper -> !le_nom_du_monstre")
 			.setColor("#211edc")
 			.addField(">>>Tous les monstres<<<", "\n noceros \nfaucheuse\ndrider\nwyrm\nbetedesneiges\ngriffon\nlarve\ngargantua\nepinator\ntroyen\nailesnoires\nsabrecroc\nailedegivre\ntitan\nmorphalange\nreineabeille \nchaman \ngolem")
-			.addField(">>>APPEL A FAIRE UN MONSTRE !!<<<","\nMonstre'3/4/5'"
+			.addField(">>>APPEL A FAIRE UN MONSTRE !!<<<","\nM_le_chiffre3/4/5'"
 			.setFooter("Trop bien ??")
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
+	}
+	
+	if (message.content === '!M3') {
+		message.channel.send("@here viendez faire un monstre 3 avec moi")
+	}
+	
+	if (message.content === '!M4') {
+		message.channel.send("@here viendez faire un monstre 4 avec moi")
+	}
+	
+	if (message.content === '!M5') {
+		message.channel.send("@here viendez faire un monstre 5 avec moi")
 	}
 
 	
