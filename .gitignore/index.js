@@ -23,67 +23,64 @@ bot.on('message', function (message) {
 	
 	
 	if (message.content === '!ailedegivre') {
-		message.channel.send(">>>AILE DE GRIVE<<<  \nOiseau Noir  \nElementaliste  \nIncinératrice  \nOmbre  \n chasseur de démon")
+		message.channel.send(">>>AILE DE GRIVE<<<\nOiseau Noir\nElementaliste\nIncinératrice\nOmbre\nchasseur de démon")
 	}
 	
 	if (message.content === '!ailesnoires') {
-		message.channel.send(">>>AILE NOIRE<<<  \nOiseu noir  \nchasseur de demon  \nombre  \nRoublard  \narchere funeste")
+		message.channel.send(">>>AILE NOIRE<<<\nOiseu noir\nchasseur de demon\nombre\nRoublard\narchere funeste")
 	}
 	
 	if (message.content === '!betedesneiges') {
-		message.channel.send(">>>BETES DES NEIGES<<< \noiseau noir  \nchasseur de demon  \nOmbre  \neclair pourpre  \narchere funeste")
+		message.channel.send(">>>BETES DES NEIGES<<<\noiseau noir\nchasseur de demon\nOmbre\neclair pourpre\narchere funeste")
 	}
 	
 	if (message.content === '!chaman') {
-		message.channel.send(">>>CHAMAN<<< \noiseau noir  \nroublard  \narchere funeste  \ntraqueuse  \nombre")
+		message.channel.send(">>>CHAMAN<<<\noiseau noir\nroublard\narchere funeste\ntraqueuse\nombre")
 	}
 	
 	if (message.content === '!drider') {
-		message.channel.send(">>>DRIDER<<< \noiseau noir  \nincineratrice  \nelementaliste  \nchasseur de demon  \nombre")
+		message.channel.send(">>>DRIDER<<<\noiseau noir\nincineratrice\nelementaliste\nchasseur de demon\nombre")
 	}
 	
 	if (message.content === '!epinator') {
-		message.channel.send(">>>EPINATOR<<< \nchasseur de demon  \noiseau noir  \nombre  \neclair pourpre  \narchere funeste")
+		message.channel.send(">>>EPINATOR<<<\nchasseur de demon\noiseau noir\nombre\neclair pourpre\narchere funeste")
 	}
 	
 	if (message.content === '!gargantua') {
-		message.channel.send(">>>GARGANTUA<<< \nincineratrice  \nelementaliste  \ngobelin  \nreine des neiges  \nsage tourmenté")
+		message.channel.send(">>>GARGANTUA<<<\nincineratrice\nelementaliste\ngobelin\nreine des neiges\nsage tourmenté")
 	}
 	
 	if (message.content === '!griffon') {
-		message.channel.send(">>>GRIFFON<<< \nincinératrice  \nelementaliste  \noiseau noir  \nchasseur de demon  \nombre ")
+		message.channel.send(">>>GRIFFON<<<\nincinératrice\nelementaliste\noiseau noir\nchasseur de demon\nombre ")
 	}
 	
 	if (message.content === '!faucheuse') {
-		message.channel.send(">>>faucheuse<<< \noiseau noir  \nchasseur de monstre  \nombre  \n traqueuse \narchere funeste")
+		message.channel.send(">>>faucheuse<<<\noiseau noir\nchasseur de monstre\nombre\ntraqueuse\narchere funeste")
 	}
 	
 	f (message.content === '!morphalange') {
-		message.channel.send(">>>MORPHALANGE<<< \nombre \ntraqueuse \neclair pourpre \nchasseur de demon \nroublard")
+		message.channel.send(">>>MORPHALANGE<<<\nombre\ntraqueuse\neclair pourpre\nchasseur de demon\nroublard")
 	}
 	
 	if (message.content === '!troyen') {
-		message.channel.send(">>>TROYEN<<<  \nincineratrice \nelementaliste \ngobelin \nreine des neiges \nprima")
+		message.channel.send(">>>TROYEN<<<\nincineratrice\nelementaliste\ngobelin\nreine des neiges\nprima")
 	}
 	
 	if (message.content === '!larve') {
-		message.channel.send(">>>MEGA LARVE<<< \nincineratrice \nelementaliste \ngobelin \nreine des neige \nsage tourmenté")
+		message.channel.send(">>>MEGA LARVE<<< \nincineratrice \nelementaliste \ngobelin \nreine des neige\nsage tourmenté")
 	}
 	
 	if (message.content === '!noceros') {
-		message.channel.send(">>>Noceros<<< \nincineratrice \ngobelin \nreine des neiges \nelementaliste \nsage tourmenté")
+		message.channel.send(">>>Noceros<<<\nincineratrice\ngobelin\nreine des neiges\nelementaliste\nsage tourmenté")
 	}
 	
 	if (message.content === '!reineabeille') {
-		message.channel.send(">>>REINE DES ABEILLES<<< \noiseau noir \nchasseur de demon  \nombre \neclair poupre \narchere funeste")
+		message.channel.send(">>>REINE DES ABEILLES<<<\noiseau noir\nchasseur de demon\nombre\neclair poupre\narchere funeste")
 	}
 	
 	if (message.content === '!sabrecroc') {
-		message.channel.send(">>>SABRECROC<<< \nincineratrice \ngobelin \nelementaliste \nreine des neiges \nsage tourmenté")
+		message.channel.send(">>>SABRECROC<<<\nincineratrice\ngobelin\nelementaliste\nreine des neiges\nsage tourmenté")
 	}
-	
-	
-	
 	
 	
 	
@@ -96,27 +93,16 @@ bot.on('message', function (message) {
 		message.channel.send(">>>WYRM<<< \nincinératrice \nelementaliste \ngobelin \nreine des neiges \nsage tourmenté")
 	}
 
-
-	
-
-	
-
 	
 
 	if (message.content === '!morphalange') {
 		message.channel.send(">>>MORPHALANGE<<< \nChasseur de démon \nEclair pourpre \nRoublard \ntraqueuse \nombre")
 	}
 
-	
-
-	
 
 	if (message.content === '!golem') {
 		message.channel.send(">>>GOLEM<<< \nincinératrice \nElementalist \nprima \nreine des neiges \ngobelin")
 	}
-
-	
-
 
 
 })
