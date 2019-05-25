@@ -15,7 +15,7 @@ bot.on('message', function (message) {
 		let Embed = new Discord.RichEmbed()
 			.setDescription("voici la liste des monstres la seul chose a faire pour avoir sa composition est de taper -> !le_nom_du_monstre")
 			.setColor("#211edc")
-			.addField(">>>Tous les monstres<<<", "\n ailedegivre \nailesnoires\nbetedesneiges\nchaman\ndrider\nepinator\ngargantua\ngriffon\nfaucheuse\nmorphalange\ntroyen\nlarve\nreineabeille\nsabrecroc\ntitan\nwyrm")
+			.addField(">>>Tous les monstres<<<", "\n ailedegivre \nailesnoires\nbetedesneiges\nchaman\ndrider\nepinator\ngargantua\ngriffon\nfaucheuse\nmorphalange\ntroyen\nlarve\nnoceros\nreineabeille\nsabrecroc\ntitan\nwyrm")
 			
 			.setFooter("Trop bien ??")
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
