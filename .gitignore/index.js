@@ -58,7 +58,7 @@ bot.on('message', function (message) {
 		message.channel.send(">>>faucheuse<<<\noiseau noir\nchasseur de monstre\nombre\ntraqueuse\narchere funeste")
 	}
 	
-	f (message.content === '!morphalange') {
+	if (message.content === '!morphalange') {
 		message.channel.send(">>>MORPHALANGE<<<\nombre\ntraqueuse\neclair pourpre\nchasseur de demon\nroublard")
 	}
 	
