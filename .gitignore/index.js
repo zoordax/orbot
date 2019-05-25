@@ -93,11 +93,6 @@ bot.on('message', function (message) {
 		message.channel.send(">>>WYRM<<< \nincinératrice \nelementaliste \ngobelin \nreine des neiges \nsage tourmenté")
 	}
 
-	
-
-	if (message.content === '!morphalange') {
-		message.channel.send(">>>MORPHALANGE<<< \nChasseur de démon \nEclair pourpre \nRoublard \ntraqueuse \nombre")
-	}
 
 
 	if (message.content === '!golem') {
