@@ -17,7 +17,7 @@ bot.on('message', function (message) {
 			.setColor("#211edc")
 			.addField(">>>Tous les monstres<<<", "\n ailedegivre \nailesnoires\nbetedesneiges\nchaman\ndrider\nepinator\ngargantua\ngriffon\nfaucheuse\nmorphalange\ntroyen\nlarve\nnoceros\nreineabeille\nsabrecroc\ntitan\nwyrm")
 			
-			.setFooter("Trop bien ??")
+			.setFooter("dites moi si vous aimez le bot en cliquant sur le pouce en haut ou en bas :-)")
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
 	}
 	
