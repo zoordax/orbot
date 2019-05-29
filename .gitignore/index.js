@@ -21,7 +21,7 @@ bot.on('message', function (message) {
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
 	}
 	
-	if (message.content === 'salut') {
+	if (message.content === '!salut') {
 		message.channel.send(" silance !")
 	}
 	
