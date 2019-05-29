@@ -72,7 +72,6 @@ bot.on('message', function (message) {
 	
 	if (message.content === '!noceros') {
 		message.channel.send(">>>Noceros<<<\nincineratrice\ngobelin\nreine des neiges\nelementaliste\nsage tourmenté")
-	
 	}
 	
 	if (message.content === '!reineabeille') {
@@ -99,12 +98,6 @@ bot.on('message', function (message) {
 	if (message.content === '!golem') {
 		message.channel.send(">>>GOLEM<<< \nincinératrice \nElementalist \nprima \nreine des neiges \ngobelin")
 	}
-	
-	if (message.content === '!hey') {
-		message.channel.send("salut")
-	}
 
 
 })
-
-
