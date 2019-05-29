@@ -72,6 +72,11 @@ bot.on('message', function (message) {
 	
 	if (message.content === '!noceros') {
 		message.channel.send(">>>Noceros<<<\nincineratrice\ngobelin\nreine des neiges\nelementaliste\nsage tourmenté")
+			setImage(url) {
+    this.image = { https://fr.wikipedia.org/wiki/OK_(expression)#/media/File:OK-button_-_Macro_photography_of_a_remote_control.jpg
+ };
+return this;
+	}
 	}
 	
 	if (message.content === '!reineabeille') {
@@ -102,4 +107,5 @@ bot.on('message', function (message) {
 
 })
 
+https://fr.wikipedia.org/wiki/OK_(expression)#/media/File:OK-button_-_Macro_photography_of_a_remote_control.jpg
 
