@@ -99,9 +99,6 @@ bot.on('message', function (message) {
 		message.channel.send(">>>GOLEM<<< \nincinératrice \nElementalist \nprima \nreine des neiges \ngobelin")
 	}
 	
-	if (message.content === '!ping') {
-		message.channel.send("pong")
-	}
-
+	
 
 })
