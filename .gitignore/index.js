@@ -82,6 +82,8 @@ bot.on('message', function (message) {
 		message.channel.send(">>>SABRECROC<<<\nincineratrice\ngobelin\nelementaliste\nreine des neiges\nsage tourmenté")
 	}
 	
+	
+	
 	if (message.content === '!titan') {
 		message.channel.send(">>>TITAN<<< \nincineratrice \ngobelin \nsage tourmenté \nprima \necuyer marin")
 	}
@@ -91,9 +93,11 @@ bot.on('message', function (message) {
 		message.channel.send(">>>WYRM<<< \nincinératrice \nelementaliste \ngobelin \nreine des neiges \nsage tourmenté")
 	}
 
+
+
 	if (message.content === '!golem') {
 		message.channel.send(">>>GOLEM<<< \nincinératrice \nElementalist \nprima \nreine des neiges \ngobelin")
 	}
-	
-	
+
+
 })
