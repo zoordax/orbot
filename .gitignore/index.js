@@ -21,6 +21,10 @@ bot.on('message', function (message) {
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
 	}
 	
+	if (message.content === '!salut') {
+		message.channel.send("silence !")
+	}
+	
 	
 	if (message.content === '!ailedegivre') {
 		message.channel.send(">>>AILE DE GRIVE<<<\nOiseau Noir\nElementaliste\nIncinératrice\nOmbre\nchasseur de démon")
