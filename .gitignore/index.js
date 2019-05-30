@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 
 bot.login(process.env.TOKEN)
 
-//instance
+
 bot.on('ready', function () {
 	bot.user.setActivity('!monstres', { type: 'play' })
 })
