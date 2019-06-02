@@ -22,7 +22,7 @@ bot.on('message', function (message) {
 	}
 	
 	if (message.content === '!salut') {
-		message.channel.send("tes qui ?")
+		message.channel.send("https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/OK-button_-_Macro_photography_of_a_remote_control.jpg/220px-OK-button_-_Macro_photography_of_a_remote_control.jpg")
 	}
 	
 	
