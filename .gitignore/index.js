@@ -22,8 +22,7 @@ bot.on('message', function (message) {
 	}
 	
 	if (message.content === '!salut') {
-		message.channel.send("My Bot's message", {files: ["https://reussirsonccna.fr/wp-content/uploads/2017/11/interrogration-point-1.jpg"]});
-});
+		message.channel.send("silence !")
 	}
 	
 	
