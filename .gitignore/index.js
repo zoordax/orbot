@@ -22,7 +22,7 @@ bot.on('message', function (message) {
 	}
 	
 	if (message.content === '!salut') {
-		message.channel.send("silence !")
+		message.channel.send("silence !", {file: ["ok.jpg"]})
 	}
 	
 	
