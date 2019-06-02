@@ -22,7 +22,7 @@ bot.on('message', function (message) {
 	}
 	
 	if (message.content === '!salut') {
-		message.channel.send(file: "https://www.shutterstock.com/fr/image-vector/ok-logo-design-template-777520459?src=j7RtNj4DgRTpWBmAngBEsA-1-3")
+		message.channel.send("tes qui ?")
 	}
 	
 	
