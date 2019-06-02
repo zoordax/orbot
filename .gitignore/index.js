@@ -22,7 +22,7 @@ bot.on('message', function (message) {
 	}
 	
 	if (message.content === '!salut') {
-		message.channel.send("silence !")
+		message.channel.send(file: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjWn-Sx2sriAhVHDmMBHb36BjoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fok%2Blogo&psig=AOvVaw1Coh2wUonlIDUnw_BUVO1p&ust=1559561747055759")
 	}
 	
 	
