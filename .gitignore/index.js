@@ -22,12 +22,8 @@ bot.on('message', function (message) {
 	}
 	
 	if (message.content === '!salut') {
-		message.channel.send({
-			files : [{
-				attachement: " orbot/.gitignore/ok.jpg  ",
-				name: "ok.jpg"
-			}]
-		})
+		message.channel.send("My Bot's message", {files: ["https://reussirsonccna.fr/wp-content/uploads/2017/11/interrogration-point-1.jpg"]});
+});
 	}
 	
 	
