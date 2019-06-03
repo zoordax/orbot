@@ -22,7 +22,12 @@ bot.on('message', function (message) {
 	}
 	
 	if (message.content === '!salut') {
-		message.channel.send("silence !")
+		message.channel.send({
+			files : [{
+				attachement: " orbot/.gitignore/ok.jpg  ",
+				name: "ok.jpg"
+			}]
+		})
 	}
 	
 	
