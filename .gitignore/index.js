@@ -21,14 +21,7 @@ bot.on('message', function (message) {
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
 	}
 	
-	if (message.content === '!salut') {
-		message.channel.send({
-			files : [{
-				attachement: " orbot/.gitignore/ok.jpg  ",
-				name: "ok.jpg"
-			}]
-		})
-	}
+	
 	
 	
 	if (message.content === '!ailedegivre') {
