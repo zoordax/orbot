@@ -21,7 +21,9 @@ bot.on('message', function (message) {
 		message.channel.sendEmbed(Embed).then(console.log).catch(console.error)
 	}
 	
-	
+	if (message.content === '!tchuss') {
+		message.channel.send("dite aurevoir a orbot @here")
+	}
 	
 	
 	if (message.content === '!ailedegivre') {
